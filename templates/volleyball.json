@@ -1,0 +1,108 @@
+{
+  "id": "volleyball",
+  "name": "Volleyball",
+  "periods": [
+    "Set 1",
+    "Set 2",
+    "Set 3",
+    "Set 4",
+    "Set 5"
+  ],
+  "period_minutes": 25,
+  "on_field": 6,
+  "positions": [
+    "Setter",
+    "Outside hitter",
+    "Opposite",
+    "Middle blocker",
+    "Libero"
+  ],
+  "surface": {
+    "shape": "court",
+    "length": 18,
+    "width": 9
+  },
+  "panel": {
+    "name": "Volleyball default",
+    "buttons": [
+      {
+        "code": "Serve",
+        "color": "#0ea5e9",
+        "hotkey": "s",
+        "pre": 2,
+        "post": 6,
+        "descriptors": [
+          "Ace",
+          "In",
+          "Error"
+        ]
+      },
+      {
+        "code": "Reception",
+        "color": "#64748b",
+        "hotkey": "r",
+        "pre": 2,
+        "post": 4,
+        "descriptors": [
+          "Perfect",
+          "Good",
+          "Poor",
+          "Error"
+        ]
+      },
+      {
+        "code": "Set",
+        "color": "#f59e0b",
+        "hotkey": "e",
+        "pre": 2,
+        "post": 3
+      },
+      {
+        "code": "Attack",
+        "color": "#16a34a",
+        "hotkey": "a",
+        "pre": 4,
+        "post": 3,
+        "descriptors": [
+          "Kill",
+          "In play",
+          "Error",
+          "Blocked"
+        ]
+      },
+      {
+        "code": "Block",
+        "color": "#2563eb",
+        "hotkey": "b",
+        "pre": 3,
+        "post": 3,
+        "descriptors": [
+          "Point",
+          "Touch",
+          "Error"
+        ]
+      },
+      {
+        "code": "Dig",
+        "color": "#84cc16",
+        "hotkey": "d",
+        "pre": 3,
+        "post": 3
+      },
+      {
+        "code": "Point won",
+        "color": "#22c55e",
+        "hotkey": "p",
+        "pre": 8,
+        "post": 2
+      },
+      {
+        "code": "Point lost",
+        "color": "#dc2626",
+        "hotkey": "l",
+        "pre": 8,
+        "post": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "app": {
+    "name": "Coach's Playbook"
+  },
+  "nav": {
+    "analysis": "Video analysis",
+    "matches": "Matches",
+    "players": "Players",
+    "training": "Training",
+    "tactics": "Tactics",
+    "reports": "Reports",
+    "sync": "Sync & data",
+    "settings": "Settings",
+    "teams": "Switch team"
+  },
+  "companion": {
+    "match": "Match",
+    "attendance": "Training",
+
+    "injuries": "Injuries",
+    "assess": "Squad",
+    "plans": "Playlists",
+    "notes": "Notes",
+    "sync": "Sync",
+    "more": "More",
+    "tactics": "Tactics",
+    "playlists": "Playlists",
+    "appearance": "Appearance"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "football",
+  "name": "Football",
+  "periods": [
+    "1st half",
+    "2nd half"
+  ],
+  "period_minutes": 45,
+  "on_field": 11,
+  "positions": [
+    "GK",
+    "RB",
+    "CB",
+    "LB",
+    "RWB",
+    "LWB",
+    "DM",
+    "CM",
+    "AM",
+    "RM",
+    "LM",
+    "RW",
+    "LW",
+    "ST"
+  ],
+  "surface": {
+    "shape": "pitch",
+    "length": 105,
+    "width": 68
+  },
+  "panel": {
+    "name": "Football default",
+    "buttons": [
+      {
+        "code": "Goal",
+        "color": "#16a34a",
+        "hotkey": "g",
+        "pre": 15,
+        "post": 5
+      },
+      {
+        "code": "Shot",
+        "color": "#22c55e",
+        "hotkey": "s",
+        "pre": 8,
+        "post": 4,
+        "descriptors": [
+          "Success",
+          "Fail"
+        ]
+      },
+      {
+        "code": "Chance",
+        "color": "#84cc16",
+        "hotkey": "c",
+        "pre": 10,
+        "post": 4
+      },
+      {
+        "code": "Turnover",
+        "color": "#dc2626",
+        "hotkey": "t",
+        "pre": 6,
+        "post": 6
+      },
+      {
+        "code": "Ball won",
+        "color": "#2563eb",
+        "hotkey": "w",
+        "pre": 6,
+        "post": 6
+      },
+      {
+        "code": "Corner",
+        "color": "#f59e0b",
+        "hotkey": "k",
+        "pre": 3,
+        "post": 12
+      },
+      {
+        "code": "Free kick",
+        "color": "#f97316",
+        "hotkey": "f",
+        "pre": 3,
+        "post": 12
+      },
+      {
+        "code": "Foul",
+        "color": "#a855f7",
+        "hotkey": "x",
+        "pre": 5,
+        "post": 3
+      },
+      {
+        "code": "Cross",
+        "color": "#0ea5e9",
+        "hotkey": "r",
+        "pre": 5,
+        "post": 4,
+        "descriptors": [
+          "Success",
+          "Fail"
+        ]
+      },
+      {
+        "code": "Build-up",
+        "color": "#64748b",
+        "hotkey": "b",
+        "pre": 3,
+        "post": 15
+      },
+      {
+        "code": "Press",
+        "color": "#e11d48",
+        "hotkey": "p",
+        "pre": 3,
+        "post": 8,
+        "descriptors": [
+          "Success",
+          "Fail"
+        ]
+      }
+    ]
+  }
+}

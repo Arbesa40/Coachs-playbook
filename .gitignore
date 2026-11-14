@@ -1,0 +1,38 @@
+# Dependencies and build output
+node_modules/
+target/
+dist/
+_build/
+**/src-tauri/gen/android/build/
+**/src-tauri/gen/android/.gradle/
+**/src-tauri/gen/android/app/build/
+**/src-tauri/gen/android/local.properties
+**/src-tauri/gen/android/.idea/
+**/src-tauri/gen/schemas/
+**/src-tauri/resources/ffmpeg/
+
+# Local test data, logs, backups and working notes
+_import/
+_logs/
+_testmedia/
+_backup/
+_to_delete/
+samples/
+docs/STATUS.md
+*.log
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sync
+
+# Signing keys
+*.keystore
+*.jks
+
+# Editor, OS and assistant files
+.claude/
+CLAUDE.md
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db

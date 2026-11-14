@@ -1,0 +1,85 @@
+{
+  "id": "hockey",
+  "name": "Field hockey",
+  "periods": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4"
+  ],
+  "period_minutes": 15,
+  "on_field": 11,
+  "positions": [
+    "GK",
+    "Defender",
+    "Midfielder",
+    "Forward"
+  ],
+  "surface": {
+    "shape": "pitch",
+    "length": 91.4,
+    "width": 55
+  },
+  "panel": {
+    "name": "Field hockey default",
+    "buttons": [
+      {
+        "code": "Goal",
+        "color": "#16a34a",
+        "hotkey": "g",
+        "pre": 15,
+        "post": 5
+      },
+      {
+        "code": "Shot",
+        "color": "#22c55e",
+        "hotkey": "s",
+        "pre": 8,
+        "post": 4,
+        "descriptors": [
+          "Success",
+          "Fail"
+        ]
+      },
+      {
+        "code": "Circle entry",
+        "color": "#84cc16",
+        "hotkey": "e",
+        "pre": 8,
+        "post": 6
+      },
+      {
+        "code": "Penalty corner",
+        "color": "#f59e0b",
+        "hotkey": "c",
+        "pre": 3,
+        "post": 15,
+        "descriptors": [
+          "Success",
+          "Fail"
+        ]
+      },
+      {
+        "code": "Turnover",
+        "color": "#dc2626",
+        "hotkey": "t",
+        "pre": 6,
+        "post": 6
+      },
+      {
+        "code": "Ball won",
+        "color": "#2563eb",
+        "hotkey": "w",
+        "pre": 6,
+        "post": 6
+      },
+      {
+        "code": "Foul",
+        "color": "#a855f7",
+        "hotkey": "x",
+        "pre": 5,
+        "post": 3
+      }
+    ]
+  }
+}

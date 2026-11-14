@@ -1,0 +1,27 @@
+.shell { position: relative; height: 100%; display: grid; grid-template-columns: 1fr; }
+.shell.pinned { grid-template-columns: 200px 1fr; }
+
+.edge { position: fixed; left: 0; top: 0; bottom: 0; width: 6px; z-index: 40; background: linear-gradient(to right, #3b82f655, transparent); cursor: pointer; }
+.edge:hover { background: linear-gradient(to right, #3b82f6aa, transparent); }
+.side {
+  background: var(--panel); border-right: 1px solid var(--line); display: flex; flex-direction: column; padding: 10px 8px; gap: 2px;
+  position: fixed; left: 0; top: 0; bottom: 0; width: 200px; z-index: 45;
+  transform: translateX(-100%); transition: transform .18s ease; box-shadow: var(--shadow-lg);
+}
+.side.open { transform: none; }
+.shell.pinned .side { position: static; transform: none; box-shadow: none; }
+.side .brand { display: flex; align-items: center; gap: 10px; padding: 4px 6px 8px; }
+.side .brand img { width: 34px; height: auto; }
+.side .wm1 { font-size: 12px; letter-spacing: 3px; font-weight: 400; line-height: 1.1; }
+.side .wm2 { font-size: 16px; letter-spacing: 1px; font-weight: 800; line-height: 1.1; }
+.side .team { display: flex; align-items: center; gap: 8px; margin: 0 2px 10px; padding: 8px; border-radius: var(--radius); background: var(--panel-2); font-size: 12px; min-width: 0; }
+.side .team img, .side .team .ini { width: 28px; height: 28px; border-radius: 6px; flex: none; object-fit: contain; }
+.side .team b { display: block; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.side .team span { color: var(--muted); }
+.side .navsec { margin: 8px 10px 4px; font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.side button { text-align: left; background: none; border: 0; padding: 8px 10px; color: var(--muted); display: flex; gap: 10px; align-items: center; justify-content: flex-start; width: 100%; border-radius: var(--radius); }
+.side button:hover { background: var(--hover); color: var(--text); }
+.side button .ic { width: 18px; text-align: center; }
+.side button.on { background: var(--selected); color: var(--text); box-shadow: inset 3px 0 0 var(--accent); }
+.main { min-width: 0; min-height: 0; overflow: hidden; display: flex; flex-direction: column; height: 100%; }
+.page { padding: 16px 16px 16px 22px; overflow: auto; height: 100%; }

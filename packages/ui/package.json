@@ -1,0 +1,7 @@
+{
+  "name": "@cpb/ui",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "UI pieces shared by the desktop and companion apps"
+}

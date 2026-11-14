@@ -1,0 +1,108 @@
+{
+  "id": "basketball",
+  "name": "Basketball",
+  "periods": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4"
+  ],
+  "period_minutes": 10,
+  "on_field": 5,
+  "positions": [
+    "PG",
+    "SG",
+    "SF",
+    "PF",
+    "C"
+  ],
+  "surface": {
+    "shape": "court",
+    "length": 28,
+    "width": 15
+  },
+  "panel": {
+    "name": "Basketball default",
+    "buttons": [
+      {
+        "code": "2PT",
+        "color": "#16a34a",
+        "hotkey": "2",
+        "pre": 6,
+        "post": 3,
+        "descriptors": [
+          "Made",
+          "Missed"
+        ]
+      },
+      {
+        "code": "3PT",
+        "color": "#22c55e",
+        "hotkey": "3",
+        "pre": 6,
+        "post": 3,
+        "descriptors": [
+          "Made",
+          "Missed"
+        ]
+      },
+      {
+        "code": "Free throw",
+        "color": "#84cc16",
+        "hotkey": "f",
+        "pre": 2,
+        "post": 3,
+        "descriptors": [
+          "Made",
+          "Missed"
+        ]
+      },
+      {
+        "code": "Turnover",
+        "color": "#dc2626",
+        "hotkey": "t",
+        "pre": 6,
+        "post": 4
+      },
+      {
+        "code": "Rebound",
+        "color": "#2563eb",
+        "hotkey": "r",
+        "pre": 3,
+        "post": 3,
+        "descriptors": [
+          "Offensive",
+          "Defensive"
+        ]
+      },
+      {
+        "code": "Steal",
+        "color": "#0ea5e9",
+        "hotkey": "s",
+        "pre": 4,
+        "post": 4
+      },
+      {
+        "code": "Assist",
+        "color": "#f59e0b",
+        "hotkey": "a",
+        "pre": 6,
+        "post": 2
+      },
+      {
+        "code": "Foul",
+        "color": "#a855f7",
+        "hotkey": "x",
+        "pre": 4,
+        "post": 2
+      },
+      {
+        "code": "Timeout",
+        "color": "#64748b",
+        "hotkey": "o",
+        "pre": 0,
+        "post": 5
+      }
+    ]
+  }
+}

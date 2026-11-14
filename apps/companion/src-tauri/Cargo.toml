@@ -1,0 +1,22 @@
+[package]
+name = "coachs-playbook-companion"
+description = "Coach's Playbook pitch-side companion for Android"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+name = "cpb_companion_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+coach-core = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+tauri = { version = "2", features = ["protocol-asset"] }
+
+[target.'cfg(any(target_os = "android", target_os = "ios"))'.dependencies]
+tauri-plugin-barcode-scanner = "2"

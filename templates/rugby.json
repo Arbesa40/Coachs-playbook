@@ -1,0 +1,111 @@
+{
+  "id": "rugby",
+  "name": "Rugby union",
+  "periods": [
+    "1st half",
+    "2nd half"
+  ],
+  "period_minutes": 40,
+  "on_field": 15,
+  "positions": [
+    "Prop",
+    "Hooker",
+    "Lock",
+    "Flanker",
+    "No. 8",
+    "Scrum-half",
+    "Fly-half",
+    "Centre",
+    "Wing",
+    "Full-back"
+  ],
+  "surface": {
+    "shape": "pitch",
+    "length": 100,
+    "width": 70
+  },
+  "panel": {
+    "name": "Rugby union default",
+    "buttons": [
+      {
+        "code": "Try",
+        "color": "#16a34a",
+        "hotkey": "y",
+        "pre": 20,
+        "post": 5
+      },
+      {
+        "code": "Kick at goal",
+        "color": "#22c55e",
+        "hotkey": "g",
+        "pre": 5,
+        "post": 5,
+        "descriptors": [
+          "Success",
+          "Fail"
+        ]
+      },
+      {
+        "code": "Scrum",
+        "color": "#64748b",
+        "hotkey": "s",
+        "pre": 3,
+        "post": 15,
+        "descriptors": [
+          "Won",
+          "Lost"
+        ]
+      },
+      {
+        "code": "Lineout",
+        "color": "#0ea5e9",
+        "hotkey": "l",
+        "pre": 3,
+        "post": 15,
+        "descriptors": [
+          "Won",
+          "Lost"
+        ]
+      },
+      {
+        "code": "Ruck",
+        "color": "#f59e0b",
+        "hotkey": "r",
+        "pre": 3,
+        "post": 6
+      },
+      {
+        "code": "Tackle",
+        "color": "#2563eb",
+        "hotkey": "t",
+        "pre": 3,
+        "post": 3,
+        "descriptors": [
+          "Made",
+          "Missed"
+        ]
+      },
+      {
+        "code": "Turnover",
+        "color": "#dc2626",
+        "hotkey": "o",
+        "pre": 6,
+        "post": 6
+      },
+      {
+        "code": "Penalty",
+        "color": "#a855f7",
+        "hotkey": "p",
+        "pre": 8,
+        "post": 4
+      },
+      {
+        "code": "Line break",
+        "color": "#84cc16",
+        "hotkey": "b",
+        "pre": 6,
+        "post": 8
+      }
+    ]
+  }
+}

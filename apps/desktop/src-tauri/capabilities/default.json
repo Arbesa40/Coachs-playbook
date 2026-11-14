@@ -1,0 +1,20 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Main window, the pop-out video window, the second-screen tactics board and the second-screen compare view",
+  "windows": [
+    "main",
+    "video",
+    "board",
+    "compare"
+  ],
+  "permissions": [
+    "core:default",
+    "core:webview:allow-create-webview-window",
+    "core:window:allow-set-fullscreen",
+    "core:window:allow-set-focus",
+    "core:window:allow-close",
+    "dialog:default",
+    "opener:default"
+  ]
+}

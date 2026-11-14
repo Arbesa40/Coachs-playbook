@@ -1,0 +1,87 @@
+{
+  "id": "netball",
+  "name": "Netball",
+  "periods": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4"
+  ],
+  "period_minutes": 15,
+  "on_field": 7,
+  "positions": [
+    "GS",
+    "GA",
+    "WA",
+    "C",
+    "WD",
+    "GD",
+    "GK"
+  ],
+  "surface": {
+    "shape": "court",
+    "length": 30.5,
+    "width": 15.25
+  },
+  "panel": {
+    "name": "Netball default",
+    "buttons": [
+      {
+        "code": "Goal",
+        "color": "#16a34a",
+        "hotkey": "g",
+        "pre": 8,
+        "post": 3
+      },
+      {
+        "code": "Missed shot",
+        "color": "#f97316",
+        "hotkey": "m",
+        "pre": 6,
+        "post": 3
+      },
+      {
+        "code": "Centre pass",
+        "color": "#64748b",
+        "hotkey": "c",
+        "pre": 1,
+        "post": 10
+      },
+      {
+        "code": "Turnover",
+        "color": "#dc2626",
+        "hotkey": "t",
+        "pre": 6,
+        "post": 4
+      },
+      {
+        "code": "Intercept",
+        "color": "#2563eb",
+        "hotkey": "i",
+        "pre": 4,
+        "post": 4
+      },
+      {
+        "code": "Rebound",
+        "color": "#0ea5e9",
+        "hotkey": "r",
+        "pre": 3,
+        "post": 3
+      },
+      {
+        "code": "Penalty",
+        "color": "#a855f7",
+        "hotkey": "p",
+        "pre": 4,
+        "post": 3
+      },
+      {
+        "code": "Feed",
+        "color": "#f59e0b",
+        "hotkey": "f",
+        "pre": 4,
+        "post": 3
+      }
+    ]
+  }
+}
