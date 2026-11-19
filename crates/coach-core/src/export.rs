@@ -1,4 +1,4 @@
-//! Open-format exports: CSV for any record kind, Sportscode/Nacsport-style XML for tags.
+// Open-format exports: CSV for any record kind, Sportscode/Nacsport-style XML for tags.
 
 use crate::Result;
 use serde_json::Value;
