@@ -1,4 +1,4 @@
-//! Hybrid logical clock encoded as "millis-counter-device" so string order is time order.
+// Hybrid logical clock encoded as "millis-counter-device" so string order is time order.
 
 use std::sync::Mutex;
 use std::time::{SystemTime, UNIX_EPOCH};
