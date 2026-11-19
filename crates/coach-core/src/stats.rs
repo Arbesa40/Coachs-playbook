@@ -1,4 +1,4 @@
-//! Stats from tags: counts per code, player and period, and descriptor outcomes.
+// Stats from tags counts per player and period, and descriptor outcomes.
 
 use serde_json::{json, Map, Value};
 use std::collections::BTreeMap;
