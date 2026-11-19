@@ -1,4 +1,4 @@
-//! What the desktop's pairing QR code carries.
+// What the desktop's pairing QR code carries.
 
 use crate::{Error, Result};
 use base64::{engine::general_purpose::URL_SAFE_NO_PAD as B64, Engine};
